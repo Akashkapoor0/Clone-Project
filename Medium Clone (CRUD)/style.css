@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.flex{
+    display: flex;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-left:20px ;
+    height: 56px;
+    width: auto;
+    border-bottom: solid 1px rgb(207, 207, 207);
+}
+.logo{
+    width: 115px;
+    height: auto;
+}
+.contain-search{
+    padding-left: 24px;
+}
+.search{
+    background-color: #F9F9F9;
+    display: flex;
+    align-content: center;
+    height: 37px;
+    width: 235px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.search svg{
+    display: flex;
+    align-self: center;
+    color: rgb(126, 125, 125);
+}
+
+.search input{
+    border: none;
+    background-color: inherit;
+    outline: none;
+    padding-left: 10px;
+}
+.right-part{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.write{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.notification{
+    margin-right: 30px;
+}
+.profile-img img{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.svg{
+    color: rgb(126, 125, 125);
+}
+.write a{
+    color: rgb(126, 125, 125);
+    text-decoration: none;
+    padding-top: 3.5px;
+    padding-left: 10px;
+}
+.main{
+    flex-grow: 1;
+    height: 100%;
+    padding-left: 10px;
+}
+.space{
+    padding-bottom: 24px;
+    max-width: auto;
+}
+.trend-bar{
+    max-width: 968px;
+    height: 55.2px;
+}
+.trend-space{
+    max-width: 680px;
+    height: 16px;
+    margin: 0 auto;
+}
+.trending{
+    max-width: 728px;
+    height: 100%;
+    margin: 0 auto;
+    padding:0px 24px 0px 24px;
+}
+.plus{
+    margin-right:24px;
+}
+.trend-container{
+    display: flex;
+    font-size:15px;
+}
+.dark{
+    opacity: 0.6;
+}
+.color{
+    color: rgb(126, 125, 125);
+}
+.space{
+    margin-right: 32px;
+}
+.border{
+    width: auto;
+    border-top: 0.5px solid rgb(207, 207, 207);
+    margin-left: 98px;
+}
+.content{
+    padding-top: 50px ;
+    height: 100%;
+    max-width: 968px;
+    margin-left: auto;
+    
+}
+.sender{
+    max-width: 680px;
+    height: 36px;
+    display: flex;
+    text-align: center;
+    img{
+        padding-right: 3px;
+    }
+}
+.post-one{
+    height: 100%;
+    max-width: 680px;
+    margin-bottom:50px ;
+    
+}
+h3{
+    font-weight: 400;
+    color:rgb(126, 125, 125);
+    margin-top: 5px;
+}
+.post-img{
+    margin-left: 56px;
+}
+h2{
+    margin: 0;
+}
+
+.space-10px{
+    margin-right: 20px;
+    font-size: 13px;
+    color: rgb(126, 125, 125);
+}
+.last{
+    margin-left: auto;
+}
+.left-padd{
+    padding-left: 15px;
+}
+.color-light{
+    color: rgb(126, 125, 125);
+}
+
+.sidebar{
+    border-left: 0.5px solid rgb(207, 207, 207);;
+    height: 100vh;
+    width: 303px;
+    height: 100vh;
+    margin-left:auto;
+    padding-left: 40px;
+    padding-right: 24px;
+}
+.trending-topic{
+    margin-top: 40px;
+    a{
+        color: rgb(126, 125, 125);
+        text-decoration: none;
+    }
+}
+.one{
+    padding-bottom: 20px;
+}
+.name{
+    display: flex;
+    text-align: center;
+    img{
+        border-radius: 50%;
+        padding-right: 5px;
+    }
+}
+.value{
+    margin: 10px 0px 10px 0;
+    font-weight: 600;
+    font-size: large;
+}
+.same{
+    padding: 10px;
+    background-color: rgb(223, 221, 221);
+    border-radius: 20px;
+    margin: 5px;
+}
+@media screen and (max-width: 450px) {
+    .sidebar {
+        display: none;
+    }
+}
